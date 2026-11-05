@@ -1,0 +1,19 @@
+# Core — these are the only ones you strictly need
+google-genai>=2.18.1
+PyQt6>=6.6.0
+plyer>=2.1.0
+
+# Voice (no compiler needed - audio capture uses PyQt6's QtMultimedia)
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+
+# Push-to-talk hotkey
+pynput>=1.7.6
+
+# Computer control
+pyautogui>=0.9.54
+
+# Screen reading
+mss>=9.0.1
+pillow>=10.0.0
+pytesseract>=0.3.10
